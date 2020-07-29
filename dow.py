@@ -3,21 +3,6 @@ from pytube import YouTube
 import os
 import time
 import tkinter as tk
-def downloading(sec):
-    for i in range(20):
-        sys.stdout.write("\rDownloading ...")
-        sys.stdout.flush()
-        time.sleep(sec)
-        sys.stdout.write("\rDownloading '..")
-        sys.stdout.flush()
-        time.sleep(sec)
-        sys.stdout.write("\rDownloading .'.")
-        sys.stdout.flush()
-        time.sleep(sec)
-        sys.stdout.write("\rDownloading ..'")
-        sys.stdout.flush()
-        time.sleep(sec)
-
 
 def download():
     global link
